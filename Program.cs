@@ -193,3 +193,21 @@ static int Sum(int a, int b)
 {
     return a + b;
 }
+
+
+// Дополнительные задание
+// Console.WriteLine(Gcd(48, 18));
+// Console.WriteLine(Lcm(4, 6));
+// static  int Gcd(int a, int b) {
+//     while (b != 0) {
+//         int x = b;
+//         b = a % b;
+//         a = x;
+
+//     }
+//     return a;
+// }
+
+// static int Lcm(int a, int b) {
+//    return a / Gcd(a, b) *b;
+// }
